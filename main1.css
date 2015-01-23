@@ -1,0 +1,77 @@
+.header {
+		height: 250px;
+		display: block;
+		text-align: center;
+	}
+	table {
+		border: 4px solid gray;
+		border-collapse: collapse;
+		width: 80px;
+		margin: 0 auto;
+	}
+	td {
+		background-color: rgba(0, 0, 0, 1);
+		color: white;
+		border: 2px solid gray;
+		border-collapse: collapse;
+	}
+	.circle1 {
+		width: 10px;
+		height: 10px;
+		border-radius: 5px;
+		background-color: white;
+		display: inline-block;
+	}
+	.one{
+		background-color: yellow;
+	}
+	.right {
+		margin-left: 5px
+	}
+	.otherC{
+		width: 20px;
+		height: 20px;
+		border-radius: 10px;
+		/*margin-left: 4px;
+		margin-right: 4px*/
+	}
+	
+	#areas {
+		background-color: green;
+		border: 1px solid black;
+		height: 150px;
+		width: 90%;
+		position: absolute;
+		top: 250px;
+		left: 5%;
+		display: inline-block;
+	}
+	.staging {
+		background-color: yellow;
+		width: 1.5%;
+		height: 150px;
+		position: absolute;
+		display: inline;
+	}
+
+	#track {
+		display: inline-block;
+		position: absolute;
+		left: 13%;
+		width: 80%;
+		height: 150px;
+		background-color: black;
+	}
+	.endzone {
+		background-color: white;
+		width: 1.5%;
+		height: 150px;
+		position: absolute;
+		left: 93%;
+	}
+	#staging1 {
+		left: 5%;
+	}
+	#staging2 {
+		left: 11.5%;
+	}
