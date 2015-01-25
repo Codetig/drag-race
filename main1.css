@@ -1,3 +1,14 @@
+body {
+	background: ;
+}
+img {
+	height: 30px;
+	width: 50px;
+	border-radius: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 .header {
 		height: 250px;
 		display: block;
@@ -48,7 +59,7 @@
 	}
 	.staging {
 		background-color: yellow;
-		width: 1.5%;
+		width: 0.5%;
 		height: 150px;
 		position: absolute;
 		display: inline;
@@ -57,31 +68,34 @@
 	#track {
 		display: inline-block;
 		position: absolute;
-		left: 13%;
-		width: 80%;
+		left: 12%;
+		width: 81%;
 		height: 150px;
 		background-color: black;
 	}
 	.endzone {
 		background-color: white;
-		width: 1.5%;
+		width: 0.5%;
 		height: 150px;
 		position: absolute;
 		left: 93%;
 	}
 	#staging1 {
-		left: 5%;
+		left: 6%;
 	}
 	#staging2 {
 		left: 11.5%;
 	}
 	#racer {
-		background-color: red;
-		height: 20px;
-		width: 15px;
+		background-color: rgba(0, 0, 0, 0.7);
+		height: 30px;
+		width: 50px;
+		margin: 0;
+		padding: 0;
+		border-radius: 10px;
 		position: absolute;
-		top: 20%;
-		left: 3%;
+		top: 15%;
+		left: 0.1%;
 	}
 	#chalk {
 		color: white;
