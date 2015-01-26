@@ -152,6 +152,16 @@
 	};
 
 	Lights.prototype.reset = function(){
+		for(var i = 0; i < document.querySelectorAll(".stage").length; i++){
+			document.querySelectorAll(".stage")[i].style.backgroundColor = "white";
+		}
+
+		for(var j = 0; j < document.querySelectorAll(".ready").length; j++){
+			document.querySelectorAll(".ready")[j].style.backgroundColor = "white";
+		}
+		for(var k = 0; k < document.querySelectorAll(".go").length; k++){
+			document.querySelectorAll(".go")[k].style.backgroundColor = "white";
+		}
 		//Need more info about how the lights should start
 		//this.prestage
 	};
@@ -161,7 +171,8 @@
 			return racer.clientWidth + ((parseFloat(racer.style.left)/100) * areaWidth);
 		};
 
-	
+	 
+
 	var game = new Game();
 
 	})();
